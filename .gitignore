@@ -1,0 +1,17 @@
+# Python Bytecode / Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# macOS spezifisch
+.DS_Store
+
+# IDE-spezifisch
+.idea/
+.vscode/
