@@ -1,17 +1,15 @@
-# Python Bytecode / Cache
+# macOS system files
+.DS_Store
+
+# Python bytecode
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
 # Virtual environments
 .venv/
 venv/
-.env/
+env/
 
-# macOS spezifisch
-.DS_Store
-
-# IDE-spezifisch
+# IDE dirs
 .idea/
 .vscode/
