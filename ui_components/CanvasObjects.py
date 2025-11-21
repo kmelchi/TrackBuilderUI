@@ -74,7 +74,8 @@ class Cone:
         separator.grid(row=0, column=2, rowspan=2, pady=5, padx=(5,8), sticky="ns")
 
         # delete button
-        self.delete_icon = CTkImage(Image.open("PythonProject/TrackBuilderUI/assets/trash.png"))
+        ASSET_TRASH_PATH = os.path.join(BASE_DIR, "assets", "trash.png")
+        self.delete_icon = CTkImage(Image.open(ASSET_TRASH_PATH))
         self.delete_button = CTkButton(self.info_frame, command=self.delete_cone, text="",
                                        image=self.delete_icon, width=24, height=24, fg_color="transparent", hover_color="#B22222")
         self.delete_button.grid(row=0, column=3, rowspan=2, padx=(0, 8), pady=5)
@@ -362,7 +363,8 @@ class Car:
         separator.grid(row=0, column=2, rowspan=3, pady=5, padx=(5,8), sticky="ns")
 
         # delete button
-        self.delete_icon = CTkImage(Image.open("PythonProject/TrackBuilderUI/assets/trash.png"))
+        ASSET_TRASH_PATH = os.path.join(BASE_DIR, "assets", "trash.png")
+        self.delete_icon = CTkImage(Image.open(ASSET_TRASH_PATH))
         self.delete_button = CTkButton(self.info_frame, command=self.delete_car, text="",
                                      image=self.delete_icon, width=24, height=24, fg_color="transparent", hover_color="#B22222")
         self.delete_button.grid(row=0, column=3, rowspan=3, padx=(0, 8), pady=5)
