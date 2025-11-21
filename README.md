@@ -16,7 +16,7 @@ A Python-based graphical tool for creating and editing race track layouts using 
   - Drag-and-drop functionality for object manipulation
   - Real-time position information display
 
-- **Track Generation**
+- **Track Generation** (currently unavailablen in the UI)
   - Generate track layouts from PNG/JPEG images
   - Automatic cone placement along detected track boundaries
   - Adjustable track width parameter
@@ -49,44 +49,22 @@ pip install cairosvg         # SVG rendering
 
 ### Running the Application
 
-There are three ways to run the application:
+After installing the dependencies, you can start the application by running:
 
-1. **From the PythonProject Directory**
    ```bash
-   cd /path/to/PythonProject
-   python3 -m TrackBuilderUI.TrackBuilder
+   python TrackBuilder.py
    ```
 
-2. **From the Parent Directory**
-   ```bash
-   cd /path/to/parent
-   python3 -m PythonProject.TrackBuilderUI.TrackBuilder
-   ```
-
-3. **Run the File Directly**
-   ```bash
-   cd /path/to/PythonProject
-   python3 TrackBuilderUI/TrackBuilder.py
-   ```
-
-Choose the method that best suits your needs. All methods will work the same way.
+Make sure you are inside the TrackBuilderUI directory when running this command.
 
 ### Basic Operations
 
-1. **Starting the Application**
-   ```python
-   from TrackBuilderUI.TrackBuilder import Window
-   
-   app = Window()
-   app.mainloop()
-   ```
-
-2. **Placing Objects**
+1. **Placing Objects**
    - Select blue or yellow cone from the toolbar
    - Click on the canvas to place cones
    - Use the car tool to place a single car object
 
-3. **Navigation**
+2. **Navigation**
    - Pan: Middle mouse button drag or left-click drag on empty space
    - Zoom: Mouse wheel
    - Reset View: Press 'R' key
@@ -124,7 +102,7 @@ Choose the method that best suits your needs. All methods will work the same way
    - All coordinates are stored in meters
 
 ### Automatic Track Generation
-
+(Currently unavailable in the UI)
 1. **Automatic Track Generation**
    - Click "GENERATE" in the toolbar
    - Select a track image file (PNG/JPEG)
