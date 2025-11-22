@@ -1,8 +1,8 @@
 # Track Builder UI
 
-<img width="1068" height="815" alt="Screenshot 2025-11-21 at 12 53 55" src="https://github.com/user-attachments/assets/296c98df-056b-4b92-ab42-afc2a41fec9e" />
-
 A Python-based graphical tool for creating and editing race track layouts using cones. Designed for autonomous racing applications, this tool provides an intuitive interface for placing, adjusting, and generating track boundaries.
+
+<img width="1068" height="815" alt="Screenshot 2025-11-21 at 12 53 55" src="https://github.com/user-attachments/assets/296c98df-056b-4b92-ab42-afc2a41fec9e" />
 
 ## Features
 
